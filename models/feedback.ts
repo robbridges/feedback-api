@@ -20,6 +20,7 @@ const feedbackSchema = new Schema<Feedback>({
   },
   text: {
     type: String,
+    required: true,
     
   },
 }, {
